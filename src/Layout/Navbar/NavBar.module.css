@@ -1,0 +1,79 @@
+/* src/components/Navbar.module.css */
+
+.navbar {
+    background-color: transparent;
+    margin-left: 120px;
+    color: #fff;
+    padding-top: 15px;
+    transition: padding 0.4s ease;
+}
+
+.navbar:hover {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navLinks {
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navLinks li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navLink {
+    border-radius: 3px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease, height 0.3s ease, width 0.3s ease;
+    padding: 10px 10px;
+    border: 1px solid white;
+    height: 30px;
+    width: 150px;
+}
+
+.navLink:hover {
+    text-decoration: none;
+    background-color: #555;
+    width: 80px;
+}
+
+.navLink:active {
+    color: #ff0;
+}
+
+.navLink:hover,
+.navLink:active {
+    height: 60px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+
+    .navLinks li {
+        margin-right: 10px;
+    }
+
+    .navLink {
+        width: 100px;
+        padding: 5px 5px;
+    }
+
+    .navLink:hover {
+        width: 60px;
+    }
+
+    .navLink:hover,
+    .navLink:active {
+        height: 40px;
+    }
+}

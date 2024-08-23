@@ -1,0 +1,47 @@
+.recruiterMessage {
+    color: rgb(242, 242, 242);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.recruiterMessage h2 {
+    margin-top: 40px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.recruiterMessage p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d6d6d6;
+}
+
+.recruiterMessage a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.recruiterMessage a:hover {
+    color: #0056b3;
+}
+
+@media only screen and (max-width: 600px) {
+    .recruiterMessage {
+        padding: 10px;
+    }
+
+    .recruiterMessage h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .recruiterMessage p {
+        font-size: 16px;
+    }
+}
